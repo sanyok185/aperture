@@ -255,7 +255,7 @@ body._lock {
         transform: scale(1) translate(0px, -50%);
     }
     .menu__icon._active span{
-        scale: 0;
+        display: none;
     }
     .menu__icon._active::before{
         top: 50%;
